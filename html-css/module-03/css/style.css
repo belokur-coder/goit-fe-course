@@ -1,0 +1,138 @@
+body{
+    font-family:'Ubuntu', sans-serif;
+    
+    }
+    
+    .container{
+    width: 900px;
+    margin: auto;
+    
+    }
+    ul{
+      padding: 0px;
+    }
+    
+    .site-navigation {
+        display: block;
+        font-size: 0px;
+        list-style: none;
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+        
+      }
+      .site-navigation-name {
+        text-align: center;
+        font-size: 14px;
+        display: inline-block;
+      }
+    
+      .site-navigation-name:not(:last-child){
+        margin-right: 60px;
+        }
+    
+      .page-header{
+        padding-top: 40px;
+        padding-bottom: 0px;
+      }
+      
+      .site-navigation a {
+        display: inline-block;
+        color: #626262;
+        font-weight: 300;
+        text-transform: uppercase;
+        text-decoration: none;
+        line-height: 14px;
+      }
+    
+    
+      .site-navigation a:hover,
+    .site-navigation a:focus {
+      color: #03a9f4;}
+    
+    
+    
+    
+      .main{
+        text-align: center;
+        
+    
+      }
+    
+      .list-item {
+        list-style: none;
+        font-size: 14;
+      }
+    
+      .list-item {
+        display: inline-block;
+        width: 420px;
+        height: 280px;
+        padding-top:  40px;
+        padding-right: 15px;
+      }
+    
+    
+      .imag {
+    
+        display: inline-block;
+        width: 420px;
+        height: 280px;
+        background-color: #f2f2f2;
+        
+        
+      }
+    .img {
+      
+      opacity: 0.8;
+    }
+      
+      .list-name {
+        font-size: 14px;
+        line-height: 26px;
+        color: #b4ad9e;
+        text-align: left;
+        text-transform: uppercase; 
+      }
+      .list-titel {
+        margin-top: 0;
+        margin-bottom: 0px;
+        margin: auto;
+        font-size: 30px;
+        line-height: 16px;
+        color: #626262;
+        text-align: left;
+      }
+      
+      .list-about {
+        
+        font-size: 14px;
+        color:#626262;
+        text-align: left;
+      }
+    
+      .Load {
+        text-align: center; 
+      }
+    
+      .Load-button {
+        border:2px;
+        padding: 14px 82px;
+        background-color:#dddcd7;
+        font-size: 14px;
+        line-height: 21px;
+        font-weight: 600;
+        color: #626262;
+        text-transform: uppercase;
+        cursor: pointer; 
+        margin: 60px 0px 50px;
+        
+          }
+    
+    
+      .Load-button:hover {
+        color: #fff;
+        background: #03a9f4;
+        transition: all .3s linear;
+       
+          }
