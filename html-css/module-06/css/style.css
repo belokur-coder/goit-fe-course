@@ -73,15 +73,8 @@ body {
 }
 
 .main-information {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-grow: 1;
-    flex-wrap: wrap;
     padding-top: 100px;
-    margin-bottom: 80px;
-}
+    }
 
 
 
@@ -123,7 +116,8 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 50px;
+    padding-top: 50px;
+    
 }
 
 .icon-card {
@@ -215,8 +209,6 @@ body {
 
 .card {
     width: 380px;
-    height: 470px;
-    background-color: #95e1d3;
     position: relative;
     
 }
@@ -249,7 +241,6 @@ body {
 }
 
 .social-icons {
-    /* position: absolute; */
     display: flex;
     z-index: 2;
     justify-content: center;
@@ -319,19 +310,10 @@ a span {
     position: relative;
     height: 62px;
     justify-content: space-between;
+    border-top: 2px solid #e5e5e5 ; 
 
 }
-.page-footer::before{
-    content: '';
-    display: flex;
-    background-color: #e5e5e5;
-    height:2px;
-    width:1200px;
-    position: absolute;
-    top: 0%;
-    align-content: space-between;
-    
-}
+
 .footer-text {
 
 }
@@ -343,7 +325,6 @@ a span {
 #input-container{
     display: flex;
     height: 40px;
-    width: 150px;
     border-color: #e5e5e5;
     border:1px;
     

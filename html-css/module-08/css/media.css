@@ -1,0 +1,177 @@
+@media (max-width: 767px){
+
+    .container{
+        margin-left: 26px;
+        margin-right: 26px;
+    }
+    .banner{
+        min-height: 580px;
+    }
+.navigatio{
+    padding-top: 33px;
+    text-align: center;
+    }
+
+.Log-sing{
+    display: inline-block;
+    
+}
+.logo{
+    margin-top: 160px;
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    
+}
+
+.main-text-baner{
+    font-size: 30px;
+    margin-top: 100px;
+    width: 293px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.text-baner{
+    font-size:18px;
+    padding-top: 20px;
+    
+}
+.link{
+ margin-top:20px;
+ margin-left: auto;
+ margin-right: auto;
+
+
+}
+
+.article-text{
+    margin-top: 60px;
+    margin-bottom: 19px;
+    text-align: center;
+
+}
+.wrapper{
+    text-align: center;
+
+
+}
+
+.partner{
+    display: block;
+    width: 221px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.partner::before {   
+    right: 40px;
+    top: 85px;
+
+}
+
+.btn {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+
+
+
+@media (min-width: 768px){
+
+.banner{
+    min-height: 699px;
+}
+.wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 55px;
+}
+.navigatio{
+    display: flex;
+}
+.main-text-baner{
+    display: flex;
+    justify-content: center;
+    padding-left: 50px;
+    width: 550px;
+}
+.link{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 180px;
+    
+}
+.article-text{
+    display: flex;
+    align-items:flex-start;
+    padding-top: 81px;
+    justify-content: center;
+    padding-bottom: 45px;
+}
+
+.partner::before{
+    right: 40px;
+    top: 85px;
+
+}
+ 
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+    
+@media (min-width: 768px) and (max-width: 1399px){
+    .container{
+        width: 660px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .partners{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    
+}
+
+}
+
+@media (min-width: 1300px) {
+    .container{
+        width: 942px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .partners{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: space-between;
+        
+    }
+    .slider{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+
+    }
+    .main-text-baner{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .link{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
