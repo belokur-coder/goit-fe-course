@@ -69,6 +69,7 @@
 
   .conteiner{
       padding: 0.54% 15% 0.56%;
+      margin: 0 auto;
   }
 
   .navigation{
@@ -199,11 +200,33 @@
  .second{
      color: #ffffff;
  }
+
+
+form{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
  .wrapper-form{
-    display: block;
-    float: left;
-    margin-right: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    
  }
+
+ textarea {
+  display: flex;
+  width: 450px;
+  height: 229px;
+  color: #bbbbbb;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  text-transform: uppercase;
+  text-indent: 6px;
+  
+
+}
 
  input { 
     display: flex;
@@ -219,21 +242,11 @@
     text-transform: uppercase;
   }
 
-  textarea {
-    display: block;
-    width: 455px;
-    height: 229px;
-    color: #bbbbbb;
-    font-family: 'Montserrat';
-    font-size: 14px;
-    text-transform: uppercase;
-    text-indent: 6px;
-
-  }
-
+ 
 
   input[type="submit"] {
     display: flex;
+    flex-direction: row;
     height: 65px;
     width: 240px;
     margin-top: 30px;
@@ -243,7 +256,8 @@
     justify-content: center;
     cursor: pointer; 
     border-radius: 2px;
-    transform: translateX(145%);
+    margin: 0 auto;
+    
     
     
 }
