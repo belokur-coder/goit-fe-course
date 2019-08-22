@@ -26,6 +26,7 @@
     height: 36px;
     text-transform: uppercase;
     padding-top: 6px;
+    text-decoration: none;
 
 }
 .Log-text{
@@ -156,6 +157,9 @@
     padding-top: 20px;
     padding-bottom: 30px;
   }
+  .btn-wrap{
+    padding-bottom: 50px;
+  }
 
 
   .btn{
@@ -168,5 +172,11 @@
     border: solid #ff4e50 2px;
     text-decoration: none;
     background-color: #ffffff;
-    margin-bottom: 50px;
+    
+  }
+
+  .btn:hover{
+    background-color:#ff4e50;
+    color:#ffffff;
+    transition: 0.4s;
   }

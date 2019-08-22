@@ -18,11 +18,6 @@ body {
 
 /* logo */
 
-.page-header{
-    background-color: #e9f0fd;
-    margin-bottom: 50px;
-    
-}
 .page-nav {
     padding-bottom: 40px;
     padding-top: 40px;
@@ -160,14 +155,7 @@ a.site-logo ::first-letter {
     
 }
 
-.title{
-    width: 1110px;
-    height: 200px;
-    position: absolute;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%)
-}
+
 
 
 h2.main-titel {
@@ -177,7 +165,6 @@ h2.main-titel {
     width: 1110px;
     height: 123px;
     font-weight: bolder;
-    float: left;
     font-size: 48px;
     text-align: center;
     position: relative;
@@ -191,17 +178,12 @@ h2::after {
     width: 164px;
     height: 7px;
     background-color: #1abc9c;
-    float: left;
-    position: absolute;
-    left:50%;
-    transform: translate(-50%);
+    margin: 0 auto;       
 }
 
 .main-ul{
     margin: 0;
-    padding-top: 80px;
-
-}
+    }
 
 
 .main-product {
@@ -211,13 +193,12 @@ h2::after {
     float: left;
     position: relative;
     margin-right: 10px;
-    margin-left: 10px;
-    margin-top: 80px; 
-    
-    
+      
+   }
+
+.main-product :nth-last-child(4n){
+    margin-right:0 auto;
 }
-
-
 
 .img {
     width: 255px;
@@ -280,15 +261,15 @@ h2::after {
 
 .group-2 {
     width: 236px;
-    height: 261px;
+    height: 302px;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.5);
     opacity: 0;
     z-index: 3;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
+    top: 0;
+    left: 0;
+    border: 10px solid rgba(255, 255, 255, 0.7)
+    
 }
 
 .main-product:hover .group-2 {

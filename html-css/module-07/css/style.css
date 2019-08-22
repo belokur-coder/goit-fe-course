@@ -1,6 +1,6 @@
 /* playball-regular - latin */
 @font-face {
-    font-family: 'Playball';
+    font-family: 'Playball',sans-serif;
     font-style: normal;
     font-weight: 400;
     src: url('../fonts/playball-v9-latin-regular.eot'); /* IE9 Compat Modes */
@@ -14,7 +14,7 @@
 
  /* montserrat-regular - latin */
 @font-face {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 400;
     src: url('../fonts/montserrat-v14-latin-regular.eot'); /* IE9 Compat Modes */
@@ -27,7 +27,7 @@
   }
   /* montserrat-900 - latin */
   @font-face {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat',sans-serif;
     font-style: normal;
     font-weight: 900;
     src: url('../fonts/montserrat-v14-latin-900.eot'); /* IE9 Compat Modes */
@@ -41,7 +41,7 @@
 
   /* roboto-slab-regular - latin */
 @font-face {
-    font-family: 'Roboto Slab';
+    font-family: 'Roboto Slab',sans-serif;
     font-style: normal;
     font-weight: 400;
     src: url('../fonts/roboto-slab-v9-latin-regular.eot'); /* IE9 Compat Modes */
@@ -55,7 +55,7 @@
   
   /* grenze-500italic - latin */
   @font-face {
-    font-family: 'Grenze';
+    font-family: 'Grenze',sans-serif;
     font-style: italic;
     font-weight: 500;
     src: url('../fonts/grenze-v1-latin-500italic.eot'); /* IE9 Compat Modes */
@@ -68,7 +68,7 @@
   }
 
   .conteiner{
-      padding: 0.54% 15% 0.56%;
+      width: 1000px;
       margin: 0 auto;
   }
 
@@ -76,6 +76,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    padding-top: 50px;
     
   }
 
@@ -91,7 +92,7 @@
     justify-content: space-between;
   }
   .site-nav li {
-    padding-left: 35px;
+    margin-left: 35px;
   }
   .nav-title{
     display: block;
@@ -115,7 +116,7 @@
       font-weight: 900;
       font-style: normal;
       line-height: 1,85px;
-      padding-top: 111px;
+      
 }
 
 
@@ -128,10 +129,13 @@
     color: #777777;
     font-size: 16px;
     padding-bottom: 75px;
-    padding-top: 25px; 
+    line-height: 25px;
+    margin-bottom: 60px; 
   }
 
-
+  .services{
+    padding-top: 111px;px;
+  }
   .services-list{
   display: flex;
   flex-direction: row;
@@ -142,7 +146,6 @@
 }
 .service-icon{
     width: 300px;
-    height: 230px;
     text-align: center;
 
 
@@ -156,7 +159,7 @@
     background-position: center;
     width:75px;
     height: 75px;
-    transform: translateX(150%);
+    margin: 0 auto;
   
     
   }
@@ -189,11 +192,13 @@
 
 
   }
-  .Contact{
+  .contact{
       background-color: #222222;
       background-image: url('../img/Map\ Image.png');
       background-repeat: no-repeat;
       background-position: right;
+      padding-top: 100px;
+      padding-bottom: 100px;
       
 
   }
@@ -206,7 +211,22 @@ form{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  
 }
+input[type="mail"]:valid{
+  border-color: rgba(63, 185, 4, 1);
+}
+input[type="mail"]:invalid{
+  border-color: rgba(255, 102, 0, 1);
+}
+input[type="text"]:valid{
+  border-color: rgba(63, 185, 4, 1);
+}
+input[type="text"]:invalid{
+  border-color: rgba(255, 102, 0, 1);
+}
+
+
 
  .wrapper-form{
     display: flex;
@@ -241,7 +261,12 @@ form{
     font-size: 14px;
     text-transform: uppercase;
   }
-
+  
+  input[type="submit"]:hover{
+    background-color:#3fb904;
+    color:#000000;
+    transition: 0.3s;
+  }
  
 
   input[type="submit"] {
@@ -257,7 +282,5 @@ form{
     cursor: pointer; 
     border-radius: 2px;
     margin: 0 auto;
-    
-    
-    
+            
 }

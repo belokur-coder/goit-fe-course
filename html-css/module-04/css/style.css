@@ -95,7 +95,7 @@ h2.main-titel {
     font-size: 48px;
     line-height: 38px;
     text-align: center;
-    position: relative;
+    
 
 
 
@@ -111,10 +111,8 @@ h2::after {
     width: 164px;
     height: 7px;
     background-color: #1abc9c;
-    float: right;
-    position: absolute;
-    margin-top: 30px;
-    margin-left: 475px;
+    margin: 0 auto;
+    margin-top: 30px;   
 
 }
 
@@ -140,6 +138,9 @@ figure {
     margin-bottom: 15px;
 
 }
+.main-product:nth-child(4n){
+    margin-right: 0;
+    }
 
 .img {
     float: left;
@@ -213,6 +214,9 @@ figure {
     width: 350px;
     margin-right: 15px;
 }
+.blog-slide:nth-child(3n){
+    margin-right: 0;
+    }
 
 
 .blog-slide-titel {
@@ -245,17 +249,11 @@ figure {
     color: #ffffff;
     text-decoration: none;
     font-size: 24px;
-    
-    
-
-}
-.button{
     width: 160px;
     height: 41px;
     background-color: #1abc9c;
     border-radius: 5px;
     text-align: center;
-    padding-top: 12px;
-    
+    padding: 12px;
     
 }
