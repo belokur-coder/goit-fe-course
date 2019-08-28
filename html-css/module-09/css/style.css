@@ -69,6 +69,9 @@
     font-size: 24px;
     padding-top: 50px;
 }
+ul{
+  list-style: none;
+}
 
 .text-link{
   background-color: #ff4e50;
@@ -97,6 +100,8 @@
 .partner{
   position: relative;
   width: 221px;
+  height: 270px;
+  text-align: center;
  
  } 
 .partner::before{
@@ -110,8 +115,11 @@
   z-index: 1;
   border: 3px solid #ffffff;
   border-radius: 50px;
- 
+  bottom: 150px;
+  left: 140px;
 }
+ 
+
 
 .icon-tv::before{
     background-image: url('../img/Shape\ tv.png');
@@ -145,6 +153,7 @@
     color:#333333;
     font-weight: bold;
     padding-top: 20px;
+    text-align: center;
  }
   .person-information{
     font-family:'Roboto', sans-serif;
@@ -153,6 +162,7 @@
     font-weight: lighter;
     padding-top: 20px;
     padding-bottom: 30px;
+    text-align: center;
   }
   .btn-wrap{
     padding-bottom: 50px;
