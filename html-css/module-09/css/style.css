@@ -16,6 +16,19 @@
     background-position: center;
 }
 
+.navigatio, .logo{
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 766px) {
+  .logo{
+    padding-top: 100px;
+
+  }
+  .Log-sing{
+    padding-top: 30px;
+  }
+  }
 .logo{
     color:#ffffff;
     font-family: 'Montserrat', sans-serif;
@@ -31,6 +44,8 @@
   font-size: 14px;
   font-weight: bold;
   text-decoration: none;
+  
+  
   
 }
 .Log-sing{
@@ -72,12 +87,15 @@
 ul{
   list-style: none;
 }
-
+.link{
+  display: flex;
+  justify-content: center;
+}
 .text-link{
-  background-color: #ff4e50;
-   padding: 5px 10px;
+  padding: 0px 15px;
   border-radius:25px;
-  line-height: 50px;
+  background-color: #ff4e50;
+  line-height: 30px;
   color:#ffffff;
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
@@ -96,12 +114,32 @@ ul{
   display: block;
 }
 
+@media (min-width: 320px) and (max-width: 991px) {
+  .partner{
+    margin-bottom: 20px;
+      
+  }
+  .partner :nth-last-child(2n){
+    margin-bottom: 0px;
+  }
+
+}
+@media (max-width: 539px) {
+  .partners{
+    display: flex;
+    justify-content: center;
+    
+      
+  }
+}
+
 
 .partner{
   position: relative;
   width: 221px;
   height: 270px;
   text-align: center;
+  
  
  } 
 .partner::before{
@@ -144,8 +182,10 @@ ul{
     font-size: 22px;
     font-weight: bold;
     text-align: center;
+    
 
 }
+
 
   .name{
     font-family: 'Montserrat', sans-serif;
@@ -166,6 +206,9 @@ ul{
   }
   .btn-wrap{
     padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+         
   }
 
 
@@ -179,6 +222,7 @@ ul{
     border: solid #ff4e50 2px;
     text-decoration: none;
     background-color: #ffffff;
+    
     
   }
 

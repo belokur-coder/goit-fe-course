@@ -1,42 +1,32 @@
 /* playball-regular - latin */
 @font-face {
     font-family: 'Playball',sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/playball-v9-latin-regular.eot');
+    src: url('fonts/playball-v9-latin-regular.ttf');
       }
 
  /* montserrat-regular - latin */
 @font-face {
     font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/montserrat-v14-latin-regular.eot');     
+    src: url('fonts/montserrat-v14-latin-regular.ttf');     
   }
   /* montserrat-900 - latin */
   @font-face {
     font-family: 'Montserrat',sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    src: url('../fonts/montserrat-v14-latin-900.eot');
+    src: url('fonts/montserrat-v14-latin-regular.ttf');
     
   }
 
   /* roboto-slab-regular - latin */
 @font-face {
     font-family: 'Roboto Slab',sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/roboto-slab-v9-latin-regular.eot');
+    src: url('fonts/roboto-v20-latin-regular.ttf');
     
   }
   
   /* grenze-500italic - latin */
   @font-face {
     font-family: 'Grenze',sans-serif;
-    font-style: italic;
-    font-weight: 500;
-    src: url('../fonts/grenze-v1-latin-500italic.eot');     
+    src: url('fonts/grenze-v1-latin-500italic.ttf');     
   }
 
   .conteiner{
