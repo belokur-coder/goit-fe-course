@@ -16,14 +16,14 @@ html {
 }
 
 .container {
-  width: 100%;
+  /* width: 100%; */
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }
 
-@media (min-width: 576px) {
+/* @media (min-width: 576px) {
   .container {
     max-width: 560px;
   }
@@ -45,10 +45,10 @@ html {
   .container {
     max-width: 1140px;
   }
-}
+} */
 
 .container-fluid {
-  width: 100%;
+  /* width: 100%; */
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -60,7 +60,7 @@ html {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -15px;
+  /* margin-right: -15px; */
   margin-left: -15px;
 }
 

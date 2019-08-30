@@ -114,6 +114,7 @@ ul{
   display: block;
 }
 
+
 @media (min-width: 320px) and (max-width: 991px) {
   .partner{
     margin-bottom: 20px;
