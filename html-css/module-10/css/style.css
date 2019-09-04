@@ -1,0 +1,402 @@
+body {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    color: #6c7279;
+    font-size: 14px;
+    line-height: 21px;
+
+}
+
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
+
+/* @font-face {
+    font-family: 'Kaushan Script', cursive;
+} */
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.banner{
+    width: 100%;
+    min-height: 1000px;
+    background-image: url(../img/features/Layer\ 15.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    list-style:none;
+
+}
+
+.page-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-top: 30px;
+}
+
+.logo {
+    text-decoration: none;
+    font-weight: bold;
+    color:  #ffffff;
+    font-size: 30px;
+
+}
+
+
+.site-navigation {
+    display: flex;
+    flex-direction: row;
+    text-transform: uppercase;
+    list-style: none;
+
+}
+
+
+.menu{
+    
+    padding-right: 50px;
+    position: relative;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.menu a {
+    text-decoration: none;
+    color:  #ffffff;
+    font-size: 14px;
+}
+
+.menu a::after {
+    content: "";
+    width: 50px;
+    height: 3px;
+    background-color: #fce38a;
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    opacity: 0;
+
+}
+
+.menu a:hover::after,
+.menu :hover {
+    transition-duration: .15s;
+    color: #fce38a;
+    opacity: 1;
+    transition-duration: 200ms;
+    transition-timing-function: linear;
+
+}
+
+.slider_text{
+    color: #ffffff;
+    text-align: center;
+    padding-top: 150px;
+    
+}
+.slider_temlate{
+font-size: 72px;
+
+}
+.slider_welcome{
+text-transform: uppercase;
+font-size: 150px;
+font-weight: bold;
+}
+.slider_btn{
+text-transform: uppercase;
+color:  #ffffff;
+border: 3px solid  #ffffff;
+background-color: rgba(0, 0, 0, 0);
+width: 160px;
+height: 40px;
+}
+
+
+.main-information {
+    padding-top: 100px;
+    }
+
+
+
+
+.text-first {
+    font-family: 'Kaushan Script', cursive;
+    font-style: oblique;
+    color: #333333;
+    font-size: 24px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.text-second {
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    font-weight: bold;
+    color: #333333;
+    text-transform: uppercase;
+
+}
+
+.text-second:after {
+    content: "";
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.service-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 50px;
+    list-style: none;
+    
+}
+
+.icon-card {
+    margin-bottom: 90px;
+
+
+
+}
+
+.icon-card:nth-last-child(-n + 3) {
+    margin-bottom: 0;
+}
+
+.icon-card::before {
+    content: '';
+    display: block;
+    float: left;
+    height: 30px;
+    width: 30px;
+    padding: 20px;
+    background-repeat: no-repeat;
+
+
+
+}
+
+/* .photography::before {
+    background-image: url("#");
+}
+
+.web::before {
+    background-image: url("../img/LINE\ GRAPH.png");
+}
+
+.creativity::before {
+    background-image: url("../img/COMPUTER\ _\ OK.png");
+}
+
+.seo::before {
+    background-image: url("../img/BOOK\ 2.png");
+}
+
+.css::before {
+    background-image: url("../img/HOME.png");
+}
+
+.digital::before {
+    background-image: url("../img/IMAGE.png");
+} */
+
+.text-card {
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-bottom: 20px;
+    color: #333333;
+
+}
+
+.text-dc {
+    width: 400px;
+}
+
+
+
+.our-team {
+    padding-top: 100px;
+    margin-bottom: 81px;
+}
+
+.text-our-team {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+/* .card:hover .card-hover {
+    opacity: 1;
+    transition-duration: 200ms;
+    transition-timing-function: linear;
+    box-shadow: #95e1d3;
+    box-shadow: 10px 13px 0px 0px rgba(149, 225, 211, 1);
+} */
+
+.team-cards{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.card {
+    width: 380px;
+    position: relative;
+    
+}
+
+.card-text {
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+    margin-top: 40px;
+    
+}
+
+.team-position {
+    text-align: center;
+    color: #999999;
+    padding-top: 10px;
+
+}
+
+.card-hover {
+    width: 380px;
+    height: 471px;
+    background: linear-gradient(to bottom, rgba(243, 129, 129, 1) 0%, rgba(252, 227, 138, 0.7) 100%);
+    position: absolute;
+    z-index: 1;
+    transform: translateY(-100%);
+    /* opacity: 0; */
+
+}
+
+.social-icons {
+    display: flex;
+    z-index: 2;
+    justify-content: center;
+    margin-top: 207px;
+    
+
+}
+
+.icon {
+    width: 56px;
+    height: 56px;
+    cursor: pointer;
+    background-color: #fce38a;
+    margin: 0.7px;
+}
+
+/* .icon:hover {
+    background-color: #95e1d3;
+    transition-duration: 200ms;
+    transition-timing-function: linear;
+
+} */
+
+use.img{
+    width: 30px;
+    height: 30px;
+}
+
+.icon a {
+    display: block;
+    width: 56px;
+    height: 56px;
+    background-position: center;
+    color: #333333;
+
+
+}
+.icon svg{
+    color: #333333;
+}
+
+
+/* .icon-facebook {
+    background-image: url("../img/facebook.png");
+    background-repeat: no-repeat;
+
+
+
+}
+
+.icon-twitter {
+    background-image: url("../img/twitter.png");
+    background-repeat: no-repeat;
+}
+
+.icon-pinterest {
+    background-image: url("../img/pinterest.png");
+    background-repeat: no-repeat;
+}
+
+.icon-instagram {
+    background-image: url("../img/instagram.png");
+    background-repeat: no-repeat;
+} */
+
+
+.page-footer {
+    display: flex;
+    flex-direction: row;
+    flex-direction:row;
+    align-items:center;
+    position: relative;
+    height: 62px;
+    justify-content: space-between;
+    border-top: 2px solid #e5e5e5 ; 
+
+}
+
+
+
+.link{
+    text-decoration: none;
+    color: #f38181;
+}
+#input-container{
+    display: flex;
+    height: 40px;
+    border-color: #e5e5e5;
+    border:1px;
+    
+
+}
+
+#input-container>input[type=text] {
+    border: 2px soli;
+    border-radius: 1px;
+    color: #e5e5e5;
+  }
+
+  input[type=button], input[type=submit], input[type=reset] {
+    background-color: #95e1d3;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+/* #button{
+    background-color: #95e1d3;
+    height: 40px;
+    width: 150px;
+} */
+
