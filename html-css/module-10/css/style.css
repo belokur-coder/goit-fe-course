@@ -289,7 +289,7 @@ height: 40px;
     display: flex;
     z-index: 2;
     justify-content: center;
-    margin-top: 207px;
+    padding-top: 207px;
     
 
 }
@@ -299,26 +299,34 @@ height: 40px;
     height: 56px;
     cursor: pointer;
     background-color: #fce38a;
-    margin: 0.7px;
+    /* margin: 0.7px; */
 }
 
-/* .icon:hover {
-    background-color: #95e1d3;
+.icon:hover,
+use:hover {
+    background-color: #f38181;
     transition-duration: 200ms;
     transition-timing-function: linear;
+    color: #ffffff;
 
-} */
+}
 
 .img{
     width: 30px;
     height: 30px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
 }
 use{
     width: 30px;
     height: 30px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
+    color: #f38181;
+    
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
     }
 
 .icon a {
