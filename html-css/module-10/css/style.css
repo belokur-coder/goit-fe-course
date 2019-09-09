@@ -299,29 +299,28 @@ height: 40px;
     height: 56px;
     cursor: pointer;
     background-color: #fce38a;
-    /* margin: 0.7px; */
+    margin: 0.7px;
 }
 
 .icon:hover,
-use:hover {
+.img:hover {
     background-color: #f38181;
     transition-duration: 200ms;
     transition-timing-function: linear;
-    color: #ffffff;
+    fill: #c6cacc;
 
 }
 
-.img{
+/* .img{
     width: 30px;
     height: 30px;
-    display: flex;
-    justify-content: center;
+    
     /* align-items: center; */
-}
+} */
 use{
     width: 30px;
     height: 30px;
-    color: #f38181;
+    
     
 
     /* display: flex;
@@ -330,7 +329,8 @@ use{
     }
 
 .icon a {
-    display: block;
+    display: flex;
+    justify-content: center;
     width: 56px;
     height: 56px;
     background-position: center;
@@ -339,7 +339,12 @@ use{
 
 }
 .icon svg{
-    color: #333333;
+    width: 30px;
+    height: 30px;
+    transition: fill 0.2s linear;
+    fill: #f38181;
+    
+    
 }
 
 
