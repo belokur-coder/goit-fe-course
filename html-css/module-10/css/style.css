@@ -176,7 +176,7 @@ height: 40px;
     margin-bottom: 0;
 }
 
-/* .icon-card::before {
+.icon-card::before {
     content: '';
     display: block;
     float: left;
@@ -187,31 +187,31 @@ height: 40px;
 
 
 
-} */
+}
 
-/* .photography::before {
-    background-image: url("#");
+.photography::before {
+    background-image: url("../img/features/sprite.svg#features-icon-alarm");
 }
 
 .web::before {
-    background-image: url("../img/LINE\ GRAPH.png");
+    background-image: url("../img/features/sprite.svg#features-icon-line");
 }
 
 .creativity::before {
-    background-image: url("../img/COMPUTER\ _\ OK.png");
+    background-image: url("../img/features/sprite.svg#features-icon-computer");
 }
 
 .seo::before {
-    background-image: url("../img/BOOK\ 2.png");
+    background-image: url("../img/features/sprite.svg#features-icon-book");
 }
 
 .css::before {
-    background-image: url("../img/HOME.png");
+    background-image: url("../img/features/sprite.svg#features-icon-home");
 }
 
 .digital::before {
-    background-image: url("../img/IMAGE.png");
-} */
+    background-image: url("../img/features/sprite.svg#features-icon-kube");
+}
 
 .text-card {
     text-transform: uppercase;
