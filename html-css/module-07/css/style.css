@@ -1,32 +1,32 @@
 /* playball-regular - latin */
 @font-face {
     font-family: 'Playball',sans-serif;
-    src: url('fonts/playball-v9-latin-regular.svg');
+    src: url('fonts/playball-v9-latin-regular.woff');
       }
 
  /* montserrat-regular - latin */
 @font-face {
     font-family: 'Montserrat', sans-serif;
-    src: url('fonts/montserrat-v14-latin-regular.svg');     
+    src: url('fonts/montserrat-v14-latin-regular.woff');     
   }
   /* montserrat-900 - latin */
   @font-face {
     font-family: 'Montserrat',sans-serif;
-    src: url('fonts/montserrat-v14-latin-regular.svg');
+    src: url('fonts/montserrat-v14-latin-regular.woff');
     
   }
 
   /* roboto-slab-regular - latin */
 @font-face {
     font-family: 'Roboto Slab',sans-serif;
-    src: url('fonts/roboto-v20-latin-regular.svg');
+    src: url('fonts/roboto-v20-latin-regular.woff');
     
   }
   
   /* grenze-500italic - latin */
   @font-face {
     font-family: 'Grenze',sans-serif;
-    src: url('fonts/grenze-v1-latin-500italic.svg');     
+    src: url('fonts/grenze-v1-latin-500italic.woff');     
   }
 
   .conteiner{
