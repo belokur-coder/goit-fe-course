@@ -323,7 +323,7 @@ padding-bottom: 20px;
 }
 
 .social-icons:hover,
-.icon:hover,
+.ico:hover,
 .page-header__slider_btn:hover {
     background-color: #f38181;
     transition-duration: 200ms;
