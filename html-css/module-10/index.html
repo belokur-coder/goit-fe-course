@@ -21,12 +21,12 @@
                     <p class="site-logo_text">MoGo</p>
                 </a>
                 <ul class="site-navigation">
-                    <li class="site-navigation_menu"><a href="#0">About</a></li>
-                    <li class="site-navigation_menu"><a href="#0">service</a></li>
-                    <li class="site-navigation_menu"><a href="#0">work</a></li>
-                    <li class="site-navigation_menu"><a href="#0">blog</a></li>
-                    <li class="site-navigation_menu"><a href="#0">contact</a></li>
-                    <li class="site-navigation_menu">
+                    <li class="site-navigation__item"><a class="site-navigation__link" href="#0">About</a></li>
+                    <li class="site-navigation__item"><a class="site-navigation__link" href="#0">service</a></li>
+                    <li class="site-navigation__item"><a class="site-navigation__link" href="#0">work</a></li>
+                    <li class="site-navigation__item"><a class="site-navigation__link" href="#0">blog</a></li>
+                    <li class="site-navigation__item"><a class="site-navigation__link" href="#0">contact</a></li>
+                    <li class="site-navigation__item">
                         <button class="navigation-btn">
                             <svg 
                                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
@@ -48,11 +48,10 @@
                     </li>
                 </ul>
             </nav>
-            <div class="slider-text">
-                <p class="slider_temlate">Creative Template</p>
-                <p class="slider_welcome">Welcome</p>
-                <p class="slider_welcome">to MoGo</p>
-                <button class="slider_btn">Learn more</button>
+            <div class="page-header__slider-text">
+                <p class="page-header__slider_temlate">Creative Template</p>
+                <p class="page-header__slider_welcome">Welcome <br> to MoGo</p>
+                <button class="page-header__slider_btn">Learn more</button>
             </div>
         </header>
     </div>
@@ -64,82 +63,82 @@
             </h2>
 
             <ul class="service-cards">
-                <li class="service-icon-card photography">
-                    <p class="service-text_card">Photography</p>
-                    <p class="service-text_dc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                <li class="service-cards__item service-cards__item--photography">
+                    <p class="service-card__title">Photography</p>
+                    <p class="service-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                         tempor.
                     </p>
                 </li>
-                <li class="service-icon-card web">
-                    <p class="service-text_card">Web Design</p>
-                    <p class="service-text_dc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                <li class="service-cards__item service-cards__item--web">
+                    <p class="service-card__title">Web Design</p>
+                    <p class="service-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                         tempor.
                     </p>
                 </li>
-                <li class="service-icon-card creativity">
-                    <p class="service-text_card">Creativity</p>
-                    <p class="service-text_dc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                <li class="service-cards__item service-cards__item--creativity">
+                    <p class="service-card__title">Creativity</p>
+                    <p class="service-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                         tempor.
                     </p>
                 </li>
-                <li class="service-icon-card seo">
-                    <p class="service-text_card">seo</p>
-                    <p class="service-text_dc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                <li class="service-cards__item service-cards__item--seo">
+                    <p class="service-card__title">seo</p>
+                    <p class="service-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                         tempor.
                     </p>
                 </li>
-                <li class="service-icon-card css">
-                    <p class="service-text_card">Css/Html</p>
-                    <p class="service-text_dc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                <li class="service-cards__item service-cards__item--css">
+                    <p class="service-card__title">Css/Html</p>
+                    <p class="service-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                         tempor.
                     </p>
                 </li>
-                <li class="service-icon-card digital">
-                    <p class="service-text_card">digital</p>
-                    <p class="service-text_dc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                <li class="service-cards__item service-cards__item--digital">
+                    <p class="service-card__title">digital</p>
+                    <p class="service-card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                         tempor.
                     </p>
                 </li>
             </ul>
 
         </section>
-        <section class="our-team">
-            <p class="team text-first">Who we are</p>
-            <h2 class="team text-second">Meet our team
+        <section class="features">
+            <p class="features-title_we text-first">Who we are</p>
+            <h2 class="features-title text-second">Meet our team
 
             </h2>
-            <p class="text-our-team">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            <p class="features-title_our-team">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                 ullamco
                 laboris nisi ut aliquip ex ea commodo consequat.
 
             </p>
 
-            <ul class="team-cards">
-                <li class="card">
-                    <div class="photo-card">
+            <ul class="features-cards">
+                <li class="features-cards-item">
+                    <div class="features-cards_photo">
                             <img class="card-img" srcset="img/features/Layer 16.png 270w, img/features/Layer 16-1@2x.png 540w"
                             sizes="270px" src="img/features/Layer 16.png" alt="photo of Matthew Dix" height="470">
                         
-                        <div class="card-hover">
-                            <ul class="social-icons">
-                                <li class="icon">
+                        <div class="features-cards_hover">
+                            <ul class="cards_hover--social-icons">
+                                <li class="social-icons">
                                     <a href="#" class="icon-facebook">
-                                        <svg class="img">
+                                        <svg class="icon">
                                             <use href="img/features/sprite.svg#icon-facebook"></use>
                                         </svg>
                                     </a>
                                 </li>
-                                <li class="icon"><a href="#" class="icon-twitter">
-                                        <svg class="img">
+                                <li class="social-icons"><a href="#" class="icon-twitter">
+                                        <svg class="icon">
                                             <use href="img/features/sprite.svg#icon-twitter"></use>
                                         </svg></a></li>
-                                <li class="icon"><a href="#" class="icon-pinterest">
-                                        <svg class="img">
+                                <li class="social-icons"><a href="#" class="icon-pinterest">
+                                        <svg class="icon">
                                             <use href="img/features/sprite.svg#icon-pinterest"></use>
                                         </svg></a></li>
-                                <li class="icon"><a href="#" class="icon-instagram">
-                                        <svg class="img">
+                                <li class="social-icons"><a href="#" class="icon-instagram">
+                                        <svg class="icon">
                                             <use href="img/features/sprite.svg#icon-instagram"></use>
                                         </svg></a></li>
                             </ul>
@@ -149,67 +148,67 @@
                     <p class="card-text">Matthew Dix</p>
                     <p class="team-position">Graphic Design</p>
                 </li>
-                <li class="card">
-                    <div class="photo-card">
+                <li class="features-cards-item">
+                    <div class="features-cards_photo">
                             <img class="card-img" srcset="img/features/Layer 19.png 270w, img/features/Layer 19-1@2x.png 540w"
                             sizes="270px" src="img/features/Layer 19.png" alt="photo of Matthew Dix" height="470">
                         
-                        <div class="card-hover">
-                            <ul class="social-icons">
-                                <li class="icon"><a href="#" class="icon-facebook">
-                                        <svg class="img">
+                        <div class="features-cards_hover">
+                            <ul class="cards_hover--social-icons">
+                                <li class="social-icons"><a href="#" class="icon-facebook">
+                                        <svg class="icon">
                                             <use href="img/features/sprite.svg#icon-facebook"></use>
                                         </svg>
                                     </a></li>
-                                <li class="icon"><a href="#" class="icon-twitter">
-                                        <svg class="img">
+                                <li class="social-icons"><a href="#" class="icon-twitter">
+                                        <svg class="icon">
                                             <use href="img/features/sprite.svg#icon-twitter"></use>
                                         </svg></a></li>
-                                <li class="icon"><a href="#" class="icon-pinterest">
-                                        <svg class="img">
+                                <li class="social-icons"><a href="#" class="icon-pinterest">
+                                        <svg class="icon">
                                             <use href="img/features/sprite.svg#icon-pinterest"></use>
                                         </svg></a></li>
-                                <li class="icon"><a href="#" class="icon-instagram">
-                                        <svg class="img">
+                                <li class="social-icons"><a href="#" class="icon-instagram">
+                                        <svg class="icon">
                                             <use href="img/features/sprite.svg#icon-instagram"></use>
                                         </svg></a></li>
                             </ul>
                         </div>
 
                     </div>
-                    <p class="card-text">Christopher Campbell</p>
-                    <p class="team-position">Branding/UX design</p>
+                    <p class="features-cards_card-text">Christopher Campbell</p>
+                    <p class="features-cards_team-position">Branding/UX design</p>
                 </li>
-                <li class="card">
-                    <div class="photo-card">
+                <li class="features-cards-item">
+                    <div class="features-cards_photo">
                             <img class="card-img" srcset="img/features/Layer 18.png 270w, img/features/Layer 18-1@2x.png 540w"
                             sizes="270px" src="img/features/Layer 18.png" alt="photo of Matthew Dix" height="470">
                         
-                        <div class="card-hover">
-                            <ul class="social-icons">
-                                <li class="icon"><a href="#" class="icon-facebook">
-                                        <svg class="img">
+                        <div class="features-cards_hover">
+                            <ul class="cards_hover--social-icons">
+                                <li class="social-icons"><a href="#" class="icon-facebook">
+                                        <svg class="icon">
                                             <use href="img/features/sprite.svg#icon-facebook"></use>
                                         </svg>
                                     </a></li>
-                                <li class="icon"><a href="#" class="icon-twitter">
-                                        <svg class="img">
+                                <li class="social-icons"><a href="#" class="icon-twitter">
+                                        <svg class="icon">
                                             <use href="img/features/sprite.svg#icon-twitter"></use>
                                         </svg></a></li>
-                                <li class="icon"><a href="#" class="icon-pinterest">
-                                        <svg class="img">
+                                <li class="social-icons"><a href="#" class="icon-pinterest">
+                                        <svg class="icon">
                                             <use href="img/features/sprite.svg#icon-pinterest"></use>
                                         </svg></a></li>
-                                <li class="icon"><a href="#" class="icon-instagram">
-                                        <svg class="img">
+                                <li class="social-icons"><a href="#" class="icon-instagram">
+                                        <svg class="icon">
                                             <use href="img/features/sprite.svg#icon-instagram"></use>
                                         </svg></a></li>
                             </ul>
                         </div>
 
                     </div>
-                    <p class="card-text">Michael Fertig </p>
-                    <p class="team-position">Developer</p>
+                    <p class="features-cards_card-text">Michael Fertig </p>
+                    <p class="features-cards_team-position">Developer</p>
                 </li>
 
             </ul>
@@ -218,8 +217,8 @@
         </section>
     </main>
     <footer class="page-footer container">
-        <p class="footer-text">© 2016 MoGo free PSD template by
-            <a class="footer link" href="#0">Laaqiq</a>
+        <p class="footer_text">© 2016 MoGo free PSD template by
+            <a class="footer_text-link link" href="#0">Laaqiq</a>
         </p>
         <form action="input-container">
             <input type="email" placeholder="Your Email...">
