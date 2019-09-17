@@ -331,8 +331,7 @@ padding-bottom: 20px;
      cursor: pointer;
 
 }
-.social-icons:hover
-.icon:hover{
+.social-icons:hover .icon{
     fill: #ffffff;
 
 }
