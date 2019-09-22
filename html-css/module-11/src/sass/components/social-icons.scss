@@ -1,0 +1,41 @@
+.social-icons {
+    width: 56px;
+    height: 56px;
+    cursor: pointer;
+    background-color: #fce38a;
+    margin: 0.7px;
+    
+}
+
+.social-icons:hover,
+
+.page-header__slider_btn:hover {
+    background-color: #f38181;
+    transition-duration: 200ms;
+    transition-timing-function: linear;
+     cursor: pointer;
+
+}
+.social-icons:hover .icon{
+    fill: #ffffff;
+
+}
+
+.social-icons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    
+
+
+}
+.social-icons svg{
+    width: 32px;
+    height: 32px;
+    transition: fill 0.2s linear;
+    fill: #f38181;
+    
+    
+}

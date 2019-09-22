@@ -1,0 +1,49 @@
+.features-cards_item {
+    width: 380px;
+    position: relative;
+
+    
+}
+.service-cards__item {
+    width: 400px;}
+
+
+.service-cards__item::before {
+    content: '';
+    display: block;
+    float: left;
+    height: 20px;
+    width: 20px;
+    padding-right: 40px;
+    padding-top: 20px;
+    background-repeat: no-repeat;
+    
+    
+    
+
+}
+
+.service-cards__item--photography::before {
+    background-image: url("/src/images/features-icon/features-icon-alarm.svg");
+    
+}
+
+.service-cards__item--web::before {
+    background-image: url("/src/images/features-icon/features-icon-line.svg");
+}
+
+.service-cards__item--creativity::before {
+    background-image: url("/src/images/features-icon/features-icon-computer.svg");
+}
+
+.service-cards__item--seo::before {
+    background-image: url("/src/images/features-icon/features-icon-book.svg");
+}
+
+.service-cards__item--css::before {
+    background-image: url("/src/images/features-icon/features-icon-home.svg");
+}
+
+.service-cards__item--digital::before {
+    background-image: url("/src/images/features-icon/features-icon-kube.svg");
+}

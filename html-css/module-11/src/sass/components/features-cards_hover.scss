@@ -1,0 +1,18 @@
+.features-cards_hover {
+    width: 380px;
+    height: 470px;
+    background: linear-gradient(to bottom, rgba(243, 129, 129, 1) 0%, rgba(252, 227, 138, 0.7) 100%);
+    position: absolute;
+    z-index: 1;
+    transform: translateY(-100%);
+    opacity: 0;
+
+}
+.features-cards_hover:hover {
+    opacity: 1;
+    transition-duration: 200ms;
+    transition-timing-function: linear;
+    box-shadow: $color-tifanny;
+    box-shadow: 10px 13px 0px 0px rgba(149, 225, 211, 1);
+}
+

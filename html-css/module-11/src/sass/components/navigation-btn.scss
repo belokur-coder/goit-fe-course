@@ -1,0 +1,15 @@
+.navigation-btn:hover
+ {
+    border-bottom: 3px solid rgba( 252, 227, 138, 1);
+    
+}
+.navigation-btn{
+    background-color: rgba( 0, 0, 0, 0);
+    border: none;
+    width: 30px;
+    height: 30px;
+    padding-bottom: 40px;
+    fill: #ffffff;
+    cursor: pointer;
+    border-bottom: 3px solid rgba( 0, 0, 0, 0);
+}

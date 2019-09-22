@@ -1,0 +1,23 @@
+body {
+    font-family: $main-font-stack; 
+    color: #6c7279;
+    font-size: 14px;
+    line-height: 21px;
+    
+}
+
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
+
+/* @font-face {
+    font-family: 'Kaushan Script', cursive;
+} */
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+ul{
+    list-style:none;
+
+}

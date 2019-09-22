@@ -1,0 +1,19 @@
+input[type=email], [placeholder="Your Email..."]{
+    width: 230px;
+    height: 40px;
+    border: 1px solid #e7e7e7;
+    color:#e7e7e7;
+    font-style: italic;
+
+
+}
+
+input[type=button],[value="Subscribe"] {
+  background-color: #95e1d3;
+  border: none;
+  color: white;
+  cursor: pointer;
+  width: 150px;
+  height: 40px;
+  text-transform: uppercase;
+}
