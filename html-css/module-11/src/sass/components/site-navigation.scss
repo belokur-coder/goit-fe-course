@@ -1,5 +1,5 @@
 .site-navigation {
-    display: flex;
+    @include center-flex("all");
     flex-direction: row;
     text-transform: uppercase;
     list-style: none;

@@ -2,7 +2,7 @@
     width: 56px;
     height: 56px;
     cursor: pointer;
-    background-color: #fce38a;
+    background-color: $color-lemon-milk;
     margin: 0.7px;
     
 }
@@ -10,19 +10,19 @@
 .social-icons:hover,
 
 .page-header__slider_btn:hover {
-    background-color: #f38181;
+    background-color: $color-coral;
     transition-duration: 200ms;
     transition-timing-function: linear;
      cursor: pointer;
 
 }
 .social-icons:hover .icon{
-    fill: #ffffff;
+    fill: $color-white;
 
 }
 
 .social-icons a {
-    display: flex;
+    @include center-flex("all");
     justify-content: center;
     align-items: center;
     width: 56px;
@@ -35,7 +35,7 @@
     width: 32px;
     height: 32px;
     transition: fill 0.2s linear;
-    fill: #f38181;
+    fill: $color-coral;
     
     
 }

@@ -1,5 +1,5 @@
 .service-cards {
-    display: flex;
+    @include center-flex("all");
     flex-wrap: wrap;
     justify-content: space-between;
     padding-top: 50px;

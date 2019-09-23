@@ -1,5 +1,5 @@
 .cards_hover--social-icons {
-    display: flex;
+    @include center-flex("all");
     z-index: 2;
     justify-content: center;
     padding-top: 207px;

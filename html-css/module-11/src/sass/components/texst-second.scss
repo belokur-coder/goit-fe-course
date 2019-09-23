@@ -3,7 +3,7 @@
     text-align: center;
     font-size: 30px;
     font-weight: bold;
-    color: #333333;
+    color: $color-dark-grey;
     text-transform: uppercase;
 
 }
@@ -12,7 +12,7 @@
     content: "";
     width: 60px;
     height: 3px;
-    background-color: #f38181;
+    background-color: $color-coral;
     position: absolute;
     bottom: -40px;
     left: 50%;

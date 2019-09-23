@@ -1,5 +1,5 @@
 .page-header__slider-text{
-    color: #ffffff;
+    color: $color-white;
     text-align: center;
     padding-top: 150px;
     
@@ -17,8 +17,8 @@ line-height: 140px;
 
 .page-header__slider_btn{
 text-transform: uppercase;
-color:  #ffffff;
-border: 3px solid  #ffffff;
+color:  $color-white;
+border: 3px solid  $color-white;
 background-color: rgba(0, 0, 0, 0);
 width: 160px;
 height: 40px;

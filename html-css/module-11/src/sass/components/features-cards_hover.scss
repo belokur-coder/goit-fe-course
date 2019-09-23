@@ -1,7 +1,7 @@
 .features-cards_hover {
     width: 380px;
     height: 470px;
-    background: linear-gradient(to bottom, rgba(243, 129, 129, 1) 0%, rgba(252, 227, 138, 0.7) 100%);
+    background: $liner-gradient;
     position: absolute;
     z-index: 1;
     transform: translateY(-100%);
