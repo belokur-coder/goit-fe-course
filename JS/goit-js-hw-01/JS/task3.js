@@ -1,18 +1,23 @@
 const ADMIN_PASSWORD = 'jqueryismyjam';
-const userPassword = prompt ('Введите пароль доступа');
+const ENTER_PASSWORD = 'Введите пароль доступа';
+const CANCEL_BY_USER = 'Отменено пользователем!';
+const ACCESS_IS_ALLOWED = 'Добро пожаловать!';
+const ACCESS_DENIED= 'Доступ запрещен, неверный пароль!';
 let message;
 
-if (userPassword) {
+const userPassword = prompt(ENTER_PASSWORD, '')
 
- if (userPassword===ADMIN_PASSWORD) {
-     message = ('Добро пожаловать!');
+if (ENTER_PASSWORD) {
+
+ if (ENTER_PASSWORD===ADMIN_PASSWORD) {
+    message = ACCESS_IS_ALLOWED;
  }
- else if (userPassword!==ADMIN_PASSWORD) {
-        message = ('Доступ запрещен, неверный пароль!');}} 
+ else if (ENTER_PASSWORD!==ADMIN_PASSWORD) {
+    message = ACCESS_DENIED;}} 
 
 
 else {
-        message = ('Отменено пользователем!');
+    message = CANCEL_BY_USER;
     }
     
 
